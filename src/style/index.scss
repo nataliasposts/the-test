@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html, body {
+    max-width: 100%; 
+    overflow-x: hidden; 
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+@font-face {
+    font-family: 'primelight';
+    src: local('primelight'),
+         url(/src/assets/fonts/prime/primelight.ttf);
+}
+@font-face {
+    font-family: 'primeregular';
+    src: local('primeregular'),
+         url(/src/assets/fonts/prime/primeregular.ttf);
+}
+@font-face {
+    font-family:'Robot-Regular';
+    src: local('Robot-Regular')
+         url(/src/assets/fonts/robot/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family:'Robot-Light';
+    src: local('Robot-Light')
+         url(/src/assets/fonts/robot/Roboto-Light.ttf);
+}

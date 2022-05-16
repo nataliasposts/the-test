@@ -1,0 +1,52 @@
+{
+  "name": "webpage",
+  "version": "1.0.0",
+  "description": "learning project",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack serve"
+  },
+  "keywords": [
+    "webpage",
+    "React",
+    "website"
+  ],
+  "author": "Natalia Novik",
+  "license": "MIT",
+  "dependencies": {
+    "@redux-devtools/extension": "^3.2.2",
+    "babel-plugin-styled-components": "^2.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.3.0",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-persist": "^6.0.0",
+    "source-map": "^0.7.3",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.4",
+    "@svgr/webpack": "^6.2.1",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.6.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "raw-loader": "^4.0.2",
+    "react-refresh": "^0.11.0",
+    "sass": "^1.49.7",
+    "sass-loader": "^12.4.0",
+    "source-map-loader": "^3.0.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
